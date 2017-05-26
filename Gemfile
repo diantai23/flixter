@@ -63,4 +63,14 @@ end
 # Simple Form
 gem 'simple_form'
 
+# Devise
 gem 'devise'
+
+# CarrierWave
+gem 'carrierwave', '~> 1.0'
+
+# Figaro
+gem "figaro"
+
+# Fog
+gem "fog-aws"
