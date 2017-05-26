@@ -77,3 +77,6 @@ gem "fog-aws"
 
 # MiniMagick
 gem "mini_magick"
+
+# CarrierWave-AWS
+gem 'carrierwave-aws'
