@@ -80,3 +80,6 @@ gem "mini_magick"
 
 # CarrierWave-AWS
 gem 'carrierwave-aws'
+
+# Stripe Checkout API
+gem 'stripe'
