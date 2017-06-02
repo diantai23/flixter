@@ -63,19 +63,19 @@ end
 # Simple Form
 gem 'simple_form'
 
-# Devise
+# Devise - for authentication
 gem 'devise'
 
-# CarrierWave
+# CarrierWave - for image and video upload
 gem 'carrierwave', '~> 1.0'
 
-# Figaro
+# Figaro - for securely saving configuration variables
 gem "figaro"
 
-# Fog
+# Fog - for AWS integration
 gem "fog-aws"
 
-# MiniMagick
+# MiniMagick - image resizing
 gem "mini_magick"
 
 # CarrierWave-AWS
@@ -83,3 +83,6 @@ gem 'carrierwave-aws'
 
 # Stripe Checkout API
 gem 'stripe'
+
+# Ranked Model
+gem 'ranked-model'
