@@ -4,6 +4,7 @@
   <h1 class="text-center">What I'm Learning</h1>
   <br /><br />
   <% current_user.enrolled_courses.each do |course| %>
+
     <h3 class="text-center">
       <%= link_to course.title, course_path(course) %>
     </h3>
