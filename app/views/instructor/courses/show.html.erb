@@ -35,7 +35,7 @@
   <br />
 
   <ul class="sections">
-    <% current_course.sections.each do |section| %>
+    <% current_course.sections.rank(:row_order).each do |section| %>
       <li class="section-li">
         <div class="header" float-left>
           <span class="fa fa-ellipsis-v" aria-hidden="true"></span>
